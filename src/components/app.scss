@@ -1,0 +1,16 @@
+@import "../styles/mixins.scss";
+
+.container {
+  @include container
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.center-items {
+  justify-content: center;
+  align-items: center;
+}
